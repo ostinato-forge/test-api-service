@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__jurati__context",
+      "mcp__jurati__query",
+      "mcp__jurati__search",
+      "mcp__jurati__sync",
+      "mcp__jurati__status",
+      "mcp__jurati__read",
+      "mcp__jurati__list_entries",
+      "mcp__jurati__explain",
+      "mcp__jurati__validate",
+      "mcp__jurati__hygiene",
+      "mcp__jurati__record",
+      "mcp__jurati__propose",
+      "mcp__jurati__expire"
+    ]
+  }
+}
