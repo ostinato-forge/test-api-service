@@ -1,4 +1,8 @@
-"""Authentication middleware for request validation."""
+"""Authentication middleware for request validation.
+
+Security refactor: middleware now validates token rotation_id when present
+to ensure refresh tokens are used within their grace period window.
+"""
 
 from fastapi import Request, HTTPException
 from starlette.middleware.base import BaseHTTPMiddleware
