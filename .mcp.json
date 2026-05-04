@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jurati": {
+      "command": "/home/eparenti/agentic-workflow-project/jurati/bin/jurati-mcp.sh",
+      "args": [],
+      "env": {
+        "JURATI_KNOWLEDGE_REMOTE": "git@github.com:eparenti/jurati-knowledge.git",
+        "JURATI_CLIENT_SLUG": "dev-alice",
+        "JURATI_PR_SIGNAL_REPOS": "ostinato-forge/test-api-service,ostinato-forge/test-web-frontend,ostinato-forge/test-shared-libs"
+      }
+    }
+  }
+}
